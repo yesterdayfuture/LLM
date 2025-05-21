@@ -1,0 +1,16 @@
+FROM /root/autodl-tmp/Qwen/qwen3_8b.gguf
+
+# set the temperature to 0.7 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0.7
+PARAMETER top_p 0.8
+PARAMETER repeat_penalty 1.05
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+{{ .Response }}<|im_end|>"""
+# set the system message
+SYSTEM """
+You are a helpful assistant.
+"""

@@ -1,0 +1,1 @@
+{"default": {"features": {"query": {"_type": "Value"}, "response": {"_type": "Value"}, "tag": {"_type": "Value"}}, "splits": {"train": {"name": "train", "dataset_name": "self-cognition"}}}}
