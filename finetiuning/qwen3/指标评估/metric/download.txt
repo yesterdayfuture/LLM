@@ -1,0 +1,5 @@
+export HF_ENDPOINT=https://hf-mirror.com
+
+huggingface-cli download --resume-download FacebookAI/xlm-roberta-large --local-dir ./roberta-large
+
+huggingface-cli download --resume-download google-bert/bert-base-chinese --local-dir ./bert-base-chinese
