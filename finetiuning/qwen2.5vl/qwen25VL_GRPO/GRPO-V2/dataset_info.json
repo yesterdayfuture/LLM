@@ -1,0 +1,120 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "llava-med-zh-instruct-60k",
+  "dataset_size": 7020016548,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00000-of-00014.parquet": {
+      "num_bytes": 444193242,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00001-of-00014.parquet": {
+      "num_bytes": 450154643,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00002-of-00014.parquet": {
+      "num_bytes": 458492846,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00003-of-00014.parquet": {
+      "num_bytes": 443538041,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00004-of-00014.parquet": {
+      "num_bytes": 463468265,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00005-of-00014.parquet": {
+      "num_bytes": 467631001,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00006-of-00014.parquet": {
+      "num_bytes": 471421838,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00007-of-00014.parquet": {
+      "num_bytes": 474935784,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00008-of-00014.parquet": {
+      "num_bytes": 475731925,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00009-of-00014.parquet": {
+      "num_bytes": 481352213,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00010-of-00014.parquet": {
+      "num_bytes": 486695681,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00011-of-00014.parquet": {
+      "num_bytes": 491761213,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00012-of-00014.parquet": {
+      "num_bytes": 473810228,
+      "checksum": null
+    },
+    "hf://datasets/BUAADreamer/llava-med-zh-instruct-60k@fe7a04ea33b1a0ee256eec14d6cd125821be01cb/data/train-00013-of-00014.parquet": {
+      "num_bytes": 484297614,
+      "checksum": null
+    }
+  },
+  "download_size": 6567484534,
+  "features": {
+    "messages": [
+      {
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "images": {
+      "feature": {
+        "_type": "Image"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 13587501082,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 7020016548,
+      "num_examples": 56649,
+      "shard_lengths": [
+        4347,
+        4247,
+        4147,
+        4247,
+        4147,
+        4046,
+        4046,
+        4046,
+        4046,
+        4046,
+        3946,
+        3946,
+        4046,
+        3346
+      ],
+      "dataset_name": "llava-med-zh-instruct-60k"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
